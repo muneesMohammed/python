@@ -48,7 +48,7 @@ while True:
     elif choice==5:
         areaSquare()
     elif choice==6:
-        perSquare
+        perSquare()
     else:
         break
         
