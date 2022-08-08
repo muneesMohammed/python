@@ -1,5 +1,15 @@
-from unittest import result
-
+def addition(num1,num2):
+    res=num1+num2
+    return res
+def sub(num1,num2):
+    res=num1-num2
+    return res
+def mul(num1,num2):
+    res=num1*num2
+    return res
+def div(num1,num2):
+    res=num1/num2
+    return res
 
 while True:
     print("1.Add 2 numbers: ")
@@ -11,22 +21,22 @@ while True:
     if choice==1:
         num1=int(input("enter a 1st number: "))
         num2=int(input("enter a 2st number: "))
-        result=num1+num2
+        result=addition(num1,num2)
         print(result)
     elif choice==2:
         num1=int(input("enter a 1st number "))
         num2=int(input("enter a 2st number "))
-        result=num1-num2
+        result=sub(num1,num2)
         print(result)
     elif choice==3:
         num1=int(input("enter a 1st number "))
         num2=int(input("enter a 2st number "))
-        result=num1*num2
+        result=mul(num1,num2)
         print(result)
     elif choice==4:
         num1=int(input("enter a 1st number "))
         num2=int(input("enter a 2st number "))
-        result=num1/num2
+        result=div(num1,num2)
         print(result)
     else:
         break
